@@ -31,7 +31,7 @@ FLAG_VALUES = {
 }
 
 if __name__ == "__main__":
-    flags_string = input("Please enter the flag argument:\n> ")
+    flags_string = input("Please enter the flags argument:\n> ")
 
     if flags_string.startswith("0o"):
         flags = int(flags_string, 8)
